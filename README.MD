@@ -62,6 +62,14 @@ Insert a new location record for a pets collar:
 `curl "http://localhost:8080/api/location" -H "Content-Type: application/json" --data '{"collarId": "123315523422", "longitude": -127.0, "latitude": 38.639095, "elevation"\n: 0.0, "when": 1596422882426}'`
 
 
+## Phases
+1. Initial POC - Completed
+2. IoT servers, Kafka, and Lambda functions
+3. Additional Premium features and Redis
+4. AWS load balancing/stress testing
+5. AWS Zone creation
+6. DB partition/optimization
+
 ## Resources Used
 1. https://start.spring.io/
 2. Docker
